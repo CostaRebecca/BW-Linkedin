@@ -1,0 +1,70 @@
+#root {
+  background-color: $linkedin-bg;
+  padding-top: 80px;
+  min-height: 100vh;
+}
+
+.items-list {
+  li:last-of-type {
+    --bs-border-color: transparent;
+  }
+}
+
+.btn-linkedin {
+  color: #707070;
+}
+.btn-linkedin:hover {
+  background-color: rgba(0, 0, 0, 0.08);
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.photo-circle {
+  width: 48px;
+  height: 48px;
+  box-sizing: border-box;
+  background-clip: content-box;
+  border: 2px solid transparent;
+  border-radius: 50%;
+}
+
+.sticky-top {
+  top: 80px;
+}
+
+.footer-home {
+  position: sticky;
+  top: 320px;
+}
+.jobs-offerte {
+  position: sticky;
+  top: 375px;
+}
+
+.text-card-home {
+  font-size: 0.8em;
+  color: #1666d5;
+  font-weight: 600;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+    color: #1666d5;
+  }
+}
+
+.list-home {
+  font-size: 0.9em;
+  color: black;
+  font-weight: 600;
+}
+
+/* @media screen and (max-width: 770px) {
+  .medium {
+    width: 100%;
+  }
+
+  .usersAside {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+} */
